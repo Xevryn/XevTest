@@ -1,3 +1,3 @@
 friends = ['john', 'pat', 'gary', 'michael']
-for i, name in enumerate(friends):
-    print ("iteration {iteration} is {name}".format(iteration=i, name=name))
+for iteration, name in enumerate(friends):
+    print(f"iteration {iteration} is {name}")
